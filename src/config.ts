@@ -28,7 +28,7 @@ export function GetConfigFields(): SomeCompanionConfigField[] {
     {
       type: "textinput",
       id: "username",
-      label: "Username",
+      label: "Username (email)",
       width: 12,
       default: "",
       required: true,
@@ -41,39 +41,39 @@ export function GetConfigFields(): SomeCompanionConfigField[] {
       default: "",
       required: true,
     },
-    {
-      type: "static-text",
-      id: "rejectUnauthorizedInfo",
-      label: "Unauthorized certificates",
-      width: 12,
-      value: `
-          <hr />
-          <h5>WARNING</h5>
-          This module rejects server certificates considered invalid for the following reasons:
-          <ul>
-            <li>Certificate is expired</li>
-            <li>Certificate has the wrong host</li>
-            <li>Untrusted root certificate</li>
-            <li>Certificate is self-signed</li>
-          </ul>
-          <p>
-            We DO NOT recommend turning off this option. However, if you NEED to connect to a host
-            with a self-signed certificate you will need to set <strong>Unauthorized Certificates</strong>
-            to <strong>Accept</strong>.
-          </p>
-          <p><strong>USE AT YOUR OWN RISK!<strong></p>
-        `,
-    },
-    {
-      type: "dropdown",
-      id: "rejectUnauthorized",
-      label: "Unauthorized Certificates",
-      width: 6,
-      default: "true",
-      choices: [
-        { id: "true", label: "Reject" },
-        { id: "false", label: "Accept - Use at your own risk!" },
-      ],
-    },
+    // {
+    //   type: "static-text",
+    //   id: "rejectUnauthorizedInfo",
+    //   label: "Unauthorized certificates",
+    //   width: 12,
+    //   value: `
+    //       <hr />
+    //       <h5>WARNING</h5>
+    //       This module rejects server certificates considered invalid for the following reasons:
+    //       <ul>
+    //         <li>Certificate is expired</li>
+    //         <li>Certificate has the wrong host</li>
+    //         <li>Untrusted root certificate</li>
+    //         <li>Certificate is self-signed</li>
+    //       </ul>
+    //       <p>
+    //         We DO NOT recommend turning off this option. However, if you NEED to connect to a host
+    //         with a self-signed certificate you will need to set <strong>Unauthorized Certificates</strong>
+    //         to <strong>Accept</strong>.
+    //       </p>
+    //       <p><strong>USE AT YOUR OWN RISK!<strong></p>
+    //     `,
+    // },
+    // {
+    //   type: "dropdown",
+    //   id: "rejectUnauthorized",
+    //   label: "Unauthorized Certificates",
+    //   width: 6,
+    //   default: "true",
+    //   choices: [
+    //     { id: "true", label: "Reject" },
+    //     { id: "false", label: "Accept - Use at your own risk!" },
+    //   ],
+    // },
   ]
 }

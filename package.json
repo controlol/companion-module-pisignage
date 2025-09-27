@@ -1,5 +1,5 @@
 {
-	"name": "your-module-name",
+	"name": "companion-module-pisignage",
 	"version": "0.1.0",
 	"main": "dist/main.js",
 	"type": "module",
@@ -16,14 +16,16 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bitfocus/companion-module-your-module-name.git"
+		"url": "git+https://github.com/controlol/companion-module-pisignage.git"
 	},
 	"engines": {
 		"node": "^22.14",
 		"yarn": "^4"
 	},
 	"dependencies": {
-		"@companion-module/base": "~1.12.1"
+		"@companion-module/base": "~1.12.1",
+		"@ts-rest/core": "^3.52.1",
+		"zod": "^3.25.76"
 	},
 	"devDependencies": {
 		"@companion-module/tools": "^2.3.0",

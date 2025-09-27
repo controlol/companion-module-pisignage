@@ -314,6 +314,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ts-rest/core@npm:^3.52.1":
+  version: 3.52.1
+  resolution: "@ts-rest/core@npm:3.52.1"
+  peerDependencies:
+    "@types/node": ^18.18.7 || >=20.8.4
+    zod: ^3.22.3
+  peerDependenciesMeta:
+    "@types/node":
+      optional: true
+    zod:
+      optional: true
+  checksum: 10c0/c5c44a02b0ba3e049a4c170b89c63f4be9623d42f363a05fa9874a77b44d9103e3a4892f22eb9c6c5f7e1165549faec914bad85ab6e51011ebc446cdfa1ddc7f
+  languageName: node
+  linkType: hard
+
 "@types/eslint-scope@npm:^3.7.7":
   version: 3.7.7
   resolution: "@types/eslint-scope@npm:3.7.7"
@@ -1021,6 +1036,26 @@ __metadata:
   checksum: 10c0/74c781a5248c2402a0a3e966a0a2bba3c054aad144f5c023364be83265e796b20565aa9feff624132ff629aa64e16999fa40a743c10c12f7c61e96a794b99288
   languageName: node
   linkType: hard
+
+"companion-module-pisignage@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "companion-module-pisignage@workspace:."
+  dependencies:
+    "@companion-module/base": "npm:~1.12.1"
+    "@companion-module/tools": "npm:^2.3.0"
+    "@stylistic/eslint-plugin": "npm:^5.4.0"
+    "@ts-rest/core": "npm:^3.52.1"
+    "@types/node": "npm:^22.14.1"
+    eslint: "npm:^9.24.0"
+    husky: "npm:^9.1.7"
+    lint-staged: "npm:^15.5.1"
+    prettier: "npm:^3.5.3"
+    rimraf: "npm:^6.0.1"
+    typescript: "npm:~5.8.3"
+    typescript-eslint: "npm:^8.30.1"
+    zod: "npm:^3.25.76"
+  languageName: unknown
+  linkType: soft
 
 "concat-map@npm:0.0.1":
   version: 0.0.1
@@ -3136,23 +3171,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"your-module-name@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "your-module-name@workspace:."
-  dependencies:
-    "@companion-module/base": "npm:~1.12.1"
-    "@companion-module/tools": "npm:^2.3.0"
-    "@stylistic/eslint-plugin": "npm:^5.4.0"
-    "@types/node": "npm:^22.14.1"
-    eslint: "npm:^9.24.0"
-    husky: "npm:^9.1.7"
-    lint-staged: "npm:^15.5.1"
-    prettier: "npm:^3.5.3"
-    rimraf: "npm:^6.0.1"
-    typescript: "npm:~5.8.3"
-    typescript-eslint: "npm:^8.30.1"
-  languageName: unknown
-  linkType: soft
+"zod@npm:^3.25.76":
+  version: 3.25.76
+  resolution: "zod@npm:3.25.76"
+  checksum: 10c0/5718ec35e3c40b600316c5b4c5e4976f7fee68151bc8f8d90ec18a469be9571f072e1bbaace10f1e85cf8892ea12d90821b200e980ab46916a6166a4260a983c
+  languageName: node
+  linkType: hard
 
 "zx@npm:^8.8.1":
   version: 8.8.4

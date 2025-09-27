@@ -1,16 +1,16 @@
 {
-	"id": "your-module-name",
-	"name": "your-module-name",
-	"shortname": "module-shortname",
-	"description": "A short one line description of your module",
+	"id": "companion-module-pisignage",
+	"name": "PiSignage",
+	"shortname": "PiSignage",
+	"description": "Module for companion to change the playlist of a group in PiSignage",
 	"version": "0.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-your-module-name.git",
-	"bugs": "https://github.com/bitfocus/companion-module-your-module-name/issues",
+	"repository": "git+https://github.com/controlol/companion-module-pisignage.git",
+	"bugs": "https://github.com/controlol/companion-module-pisignage/issues",
 	"maintainers": [
 		{
-			"name": "Your name",
-			"email": "Your email"
+			"name": "Luc Appelman",
+			"email": "lucappelman@gmail.com"
 		}
 	],
 	"runtime": {
@@ -20,7 +20,7 @@
 		"entrypoint": "../dist/main.js"
 	},
 	"legacyIds": [],
-	"manufacturer": "Your company",
-	"products": ["Your product"],
+	"manufacturer": "PiSignage",
+	"products": ["API"],
 	"keywords": []
 }

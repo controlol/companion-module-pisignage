@@ -1,3 +1,3 @@
-## Your module
+## PiSignage API
 
-Write some help for your users here!
+Module for companion to change the playlist of a group in PiSignage
