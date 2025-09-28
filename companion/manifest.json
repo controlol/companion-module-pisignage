@@ -1,5 +1,5 @@
 {
-	"id": "companion-module-pisignage",
+	"id": "controlol/pisignage",
 	"name": "PiSignage",
 	"shortname": "PiSignage",
 	"description": "Module for companion to change the playlist of a group in PiSignage",
